@@ -4,6 +4,8 @@ import Greeting from './components/Greeting';
 import IncrementButton from './components/IncrementButton';
 import DecrementButton from './components/DecrementButton';
 import { useState } from 'react';
+import JokeFetcher from './components/JokeFetcher';
+
 
 function App() {
 
@@ -23,7 +25,12 @@ function App() {
       <IncrementButton onClick={handleIncrement} />
       <DecrementButton onClick={handleDecrement} />
       <p>Count: {count}</p>
+      <div>
+      <h1>Skämt från API</h1>
+      <JokeFetcher /> 
     </div>
+    </div>
+    
   );
 }
 
