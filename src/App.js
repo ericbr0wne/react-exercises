@@ -5,6 +5,7 @@ import IncrementButton from './components/IncrementButton';
 import DecrementButton from './components/DecrementButton';
 import { useState } from 'react';
 import JokeFetcher from './components/JokeFetcher';
+import OnOffButton from './components/OnOffButton';
 
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
       <div>
       <h1>Skämt från API</h1>
       <JokeFetcher /> 
+      <div>
+        <h1>OnOffButton</h1>
+        <OnOffButton/>
+      </div>
     </div>
     </div>
     
