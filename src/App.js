@@ -6,7 +6,7 @@ import DecrementButton from './components/DecrementButton';
 import { useState } from 'react';
 import JokeFetcher from './components/JokeFetcher';
 import OnOffButton from './components/OnOffButton';
-
+import DisplayMessage from './components/DisplayMessage';
 
 function App() {
 
@@ -32,11 +32,15 @@ function App() {
       <div>
         <h1>OnOffButton</h1>
         <OnOffButton/>
+        <div>
+          <h1>Display Message</h1>
+          <DisplayMessage/>
+        </div>
       </div>
     </div>
     </div>
-    
-  );
-}
+    )
+  
+};
 
 export default App;
